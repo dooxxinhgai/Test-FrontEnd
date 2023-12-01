@@ -1,0 +1,101 @@
+
+.container{
+    width: 1920px;
+    height: 1260px;
+    background:  #FFF9F5;
+    display: flex;
+}
+.top-text{  
+    display: flex;
+    position: absolute;
+    color: var(--secondary-color-1, #462B20);
+    text-align: center;
+    margin: 66px 823px 1133px 824px;
+    font-family: "Instrument Serif";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 61px; 
+    letter-spacing: -0.58px;
+    width: 273px;
+    height: 61px;
+    
+}
+.container-img{
+    width: 560px !important;
+    height: 315px !important;
+}
+.container-img img{
+    width: 100%;
+    height: 100%;
+}
+.line{
+    width: 560px;
+    height: 1px;
+    background: #F3EAE5;
+   
+}
+.line1{
+    width: 560px;
+    height: 1px;
+    background: #F3EAE5;
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+.menu{
+    display: flex;
+    width: 560px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.menu-item{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.dropdown{
+    background-image: url("./assets/fi_chevron-down.png");
+    height: 24px;
+    width: 24px;
+    border: none;
+    background-color: #FFF9F5;
+}
+.title{
+    flex: 1 0 0;
+    color: #462B20;
+    font-family: "Instrument Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    width: 100%;
+}
+#bla-bla{
+    color: rgba(66, 41, 31, 0.85);    
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    width: 499px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.img-wrapper{
+    display: flex;
+    width: 706px;
+    height: 991px;
+    flex-shrink: 0;
+    margin: 203px 295px 66px 919px;
+    position: absolute;
+}
+.img-wrapper img{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    margin: 257px 1118px 312px 242px;
+}
